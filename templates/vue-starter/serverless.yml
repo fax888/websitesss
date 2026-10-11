@@ -1,0 +1,9 @@
+name: vue-starter
+component: website
+org: serverlessinc
+
+inputs:
+  src:
+    src: ./src
+    hook: npm run build
+    dist: ./dist
